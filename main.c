@@ -3,7 +3,6 @@
 
 int main(int ac, char **av)
 {
-	printf("%s\n", av[1]);
-	malloc(1);
+	printf("a%s\n", av[1]);
 	return (0);
 }
